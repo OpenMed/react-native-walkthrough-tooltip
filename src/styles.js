@@ -15,16 +15,19 @@ const styles: StyleSheet.Styles = StyleSheet.create({
   },
   tooltip: {
     backgroundColor: 'transparent',
-    position: 'absolute',
-    shadowColor: 'black',
-    shadowOffset: { width: 0, height: 2 },
-    shadowRadius: 2,
-    shadowOpacity: 0.8,
+    position: 'absolute'
+    //shadowColor: 'black',
+    //shadowOffset: { width: 0, height: 2 },
+    //shadowRadius: 2,
+    //shadowOpacity: 0.8,
   },
   content: {
-    borderRadius: 4,
-    padding: 8,
-    backgroundColor: '#fff',
+    borderRadius: 5,
+    paddingHorizontal: 15,
+    borderWidth: 1,
+    borderColor: '#E6E8F0',
+    paddingVertical: 10,
+    backgroundColor: '#FFFFFF',
   },
   arrow: {
     position: 'absolute',
